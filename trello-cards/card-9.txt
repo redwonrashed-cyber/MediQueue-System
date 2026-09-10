@@ -1,0 +1,5 @@
+Card #9
+Title: Patient Records Management
+Description: Receptionist/Admin can add and view patient diagnosis
+records with name, notes and date.
+List: Done
