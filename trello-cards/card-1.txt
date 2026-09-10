@@ -1,0 +1,5 @@
+Card #1
+Title: User Authentication & Role-based Access
+Description: Implement login system with role-based redirect for
+Admin, Doctor, Receptionist and Patient. Store session using sessionStorage.
+List: Done
