@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MediQueue - Book Appointment</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="navbar">
+    <h1>MediQueue - Patient</h1>
+    <button style="width:auto;" onclick="logout()">Logout</button>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <h2>Book an Appointment</h2>
+      <select id="slotSelect"></select>
+      <button onclick="bookAppointment()">Book Appointment</button>
+    </div>
+
+    <div class="card">
+      <h2>My Appointments</h2>
+      <table id="appointmentTable">
+        <thead>
+          <tr><th>Doctor</th><th>Date</th><th>Time</th><th>Status</th><th>Action</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../js/db.js"></script>
+  <script src="../js/auth.js"></script>
+  <script src="../js/appointment.js"></script>
+</body>
+</html>
