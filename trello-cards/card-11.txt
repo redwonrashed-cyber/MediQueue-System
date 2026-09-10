@@ -1,0 +1,5 @@
+Card #11
+Title: Admin Dashboard & Reports
+Description: Aggregate system-wide statistics - total appointments,
+patients in queue, registered doctors and stored patient records.
+List: Done
