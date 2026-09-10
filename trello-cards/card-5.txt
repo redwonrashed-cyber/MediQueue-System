@@ -1,0 +1,6 @@
+Card #5
+Title: Queue Token Generation & Management
+Description: Auto-generate queue tokens when an appointment is booked.
+Receptionist can call in patients and mark their queue status as
+in-progress or done.
+List: Done
