@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MediQueue - Login</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="navbar"><h1>MediQueue</h1></div>
+  <div class="container">
+    <div class="card" style="max-width:400px; margin:60px auto;">
+      <h2>Login</h2>
+      <input type="email" id="email" placeholder="Email">
+      <input type="password" id="password" placeholder="Password">
+      <button onclick="handleLogin()">Login</button>
+      <p id="error" style="color:red;"></p>
+      <hr>
+      <p style="font-size:13px; color:#555;">
+        Demo: admin@mediqueue.com / admin123 &nbsp;|&nbsp;
+        ayesha@mediqueue.com / doctor123 &nbsp;|&nbsp;
+        rina@mediqueue.com / reception123 &nbsp;|&nbsp;
+        karim@mediqueue.com / patient123
+      </p>
+    </div>
+  </div>
+
+  <script src="js/db.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>
