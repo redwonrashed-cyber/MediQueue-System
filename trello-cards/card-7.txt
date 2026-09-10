@@ -1,0 +1,5 @@
+Card #7
+Title: Doctor Availability & Schedule Management
+Description: Doctors can add new availability slots and view a list
+of their upcoming confirmed appointments.
+List: Done
