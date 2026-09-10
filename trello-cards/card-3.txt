@@ -1,0 +1,5 @@
+Card #3
+Title: Patient Appointment Booking
+Description: Allow patients to view available doctor slots, book an
+appointment, and cancel it. Auto-generate a queue token on booking.
+List: Done
