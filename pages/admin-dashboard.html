@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MediQueue - Admin Dashboard</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="navbar">
+    <h1>MediQueue - Admin Dashboard</h1>
+    <button style="width:auto;" onclick="logout()">Logout</button>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <h2>System Overview</h2>
+      <table>
+        <tr><td>Total Appointments</td><td id="statAppointments">0</td></tr>
+        <tr><td>Patients Currently in Queue</td><td id="statQueue">0</td></tr>
+        <tr><td>Registered Doctors</td><td id="statDoctors">0</td></tr>
+        <tr><td>Patient Records Stored</td><td id="statRecords">0</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2>Queue Status Breakdown</h2>
+      <table id="queueStatusTable">
+        <thead><tr><th>Status</th><th>Count</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="../js/db.js"></script>
+  <script src="../js/auth.js"></script>
+  <script src="../js/dashboard.js"></script>
+</body>
+</html>
